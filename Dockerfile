@@ -10,9 +10,8 @@ LABEL maintainer="Mesut Doganguzel @mesutguzel" version="1.0" name="hello-docker
 ENV KULLANICI="Human"
 
 
-RUN apt-get update
+RUN apt-get update && apt-get install curl -y
 
-RUN apt-get install curl -y
 
 WORKDIR /usr/share/nginx/html
 
