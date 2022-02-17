@@ -5,9 +5,7 @@ FROM nginx:latest
 
 
 
-LABEL maintainer="Mesut Doganguzel @mesutguzel"
-LABEL version="1.0"
-LABEL name="hello-docker"
+LABEL maintainer="Mesut Doganguzel @mesutguzel" version="1.0" name="hello-docker"
 
 ENV KULLANICI="Human"
 
